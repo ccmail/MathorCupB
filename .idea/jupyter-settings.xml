@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JupyterPersistentConnectionParameters">
+    <option name="moduleParameters">
+      <map>
+        <entry key="E:/MyCode/Python/IOT/.idea/IOT.iml">
+          <value>
+            <JupyterConnectionParameters>
+              <option name="managed" value="true" />
+              <option name="sdkHomePath" value="D:\MyEnvironment\Anaconda\envs\IOT\python.exe" />
+            </JupyterConnectionParameters>
+          </value>
+        </entry>
+        <entry key="E:/OneDrive/MyCode/Python/mobileVit/mobile_vit_me/mobile_vit_me.iml">
+          <value>
+            <JupyterConnectionParameters>
+              <option name="managed" value="true" />
+              <option name="port" value="22" />
+            </JupyterConnectionParameters>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
