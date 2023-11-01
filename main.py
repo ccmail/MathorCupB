@@ -4,7 +4,7 @@ import numpy as np
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
 from keras.models import Sequential
-from keras.layers import LSTM, Dense
+from keras.layers import LSTM, Dense, GRU
 from keras.optimizers import Adam
 from sklearn.metrics import mean_squared_error
 
@@ -60,6 +60,7 @@ for group, group_data in grouped:
 
 	# 构建LSTM模型
 	model = Sequential()
+	# 这里可以平替为GRU
 	model.add(LSTM(64, input_shape=(X_train.shape[1], X_train.shape[2])))
 	model.add(Dense(1))
 	model.compile(loss='mean_squared_error', optimizer=Adam(learning_rate=0.001))
